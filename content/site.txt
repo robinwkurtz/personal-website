@@ -1,0 +1,24 @@
+Title: Robin Kurtz
+
+----
+
+Author: (link: https://www.robinwkurtz.com text: robinwkurtz)
+
+----
+
+Description: Welcome to my website! I invite you to learn more about me, or take a look at my work.
+
+----
+
+Keywords: 
+
+----
+
+Copyright: 
+
+© (date: Year) All rights reserved.
+Made by (link: https://github.com/robinwkurtz text: robinwkurtz) with (link:https://getkirby.com/made-with-kirby-and-love text: with Kirby and ♥)
+
+----
+
+Initial: RK

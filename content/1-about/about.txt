@@ -1,0 +1,13 @@
+Title: About
+
+----
+
+Text: 
+
+##Hello!<br/>My name is Robin Kurtz,
+
+I am a graphic designer and front-end web developer based in Montreal. Born and raised in Montreal's West Island, I now live in the heart of the city and work in Old Montreal.
+
+I currently work as a front-end web developer with some design on the side. I maintain a passion for both fields and continue to find new experiences to build from in both.
+
+(link: http://robinwkurtz.com/my-work/ text: Check out my work class: btn)

@@ -1,0 +1,288 @@
+@import 'reset', 'variables', 'mixins', 'grid', 'typography';
+
+// Base
+
+html,
+body {
+    color: $color-body;
+    font-family: $font-body;
+
+    @include box-sizing(border-box);
+    @include font-smoothing;
+}
+
+html {
+    height: 100%;
+
+    padding: $width-gutter;
+
+    background-color: $color-white;
+}
+
+body {
+    min-height: 100%;
+
+    position: relative;
+	right: 0;
+	left: 0;
+
+	@include transition(all, 0.5s, ease);
+
+    &.is-active {
+    	right: -$width-menu;
+    	left: $width-menu;
+
+        overflow: hidden;
+    	@include transition(all, 0.5s, ease);
+
+        .menu {
+    		left: 0;
+            @include transition(all, 0.5s, ease);
+    	}
+
+        .burger {
+            .burger-icon {
+                @include burger-to-cross(3px, 3px);
+            }
+        }
+
+    }
+
+    &:before,
+    &:after {
+        content: '';
+        position: fixed;
+
+        right: 0;
+        left: 0;
+
+        height: $width-gutter;
+
+        background-color: $color-white;
+    }
+
+    &:before {
+        top: 0;
+        bottom: auto;
+    }
+    &:after {
+        top: auto;
+        bottom: 0;
+    }
+
+    .site {
+        display: table;
+        width: 100%;
+        min-height: calc(100vh - 48px);
+
+        background-color: $color-md-green;
+        color: $color-white;
+
+        > .main {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+
+}
+
+header {
+    position: fixed;
+
+    top:0;
+    right:0;
+    bottom: auto;
+    left: 0;
+
+    width: 100%;
+
+    padding: $width-gutter;
+
+    background-color: $color-white;
+
+    z-index: 9;
+
+    .logo {
+        display: inline-block;
+
+        padding: $width-gutter/2 $width-gutter/1.5;
+
+        background-color: $color-md-green;
+        color: $color-white;
+
+        font-family: $font-header;
+        font-weight: 700;
+
+        letter-spacing: 0.05em;
+
+        text-decoration: none;
+        text-transform: uppercase;
+
+        @include transition(all, 0.5s, ease);
+
+        &:hover {
+            background-color: $color-dk-green;
+
+            @include transition(all, 0.5s, ease);
+        }
+    }
+
+    .menu-button {
+        position: relative;
+        display: table;
+
+        width: 40px;
+        height: 40px;
+
+        background-color: $color-md-green;
+
+        text-decoration: none;
+
+        @include border-radius(50%);
+
+        .burger {
+            display: table-cell;
+            vertical-align: middle;
+            .burger-icon {
+                @include burger(24px, 2px, 4px, $color-white, 0, 0.3s);
+            }
+        }
+
+        &:hover {
+            background-color: $color-dk-green;
+
+            @include transition(all, 0.5s, ease);
+        }
+    }
+
+    .menu {
+
+        position: fixed;
+    	top: 0;
+    	right: auto;
+    	bottom: 0;
+    	left: -$width-menu;
+
+    	width: $width-menu;
+    	padding: 0 $width-gutter;
+
+    	background-color: $color-white;
+        color: $color-md-green;
+
+    	overflow-y: scroll;
+    	-webkit-overflow-scrolling: touch;
+
+    	z-index: 5;
+
+        @include box-sizing(border-box);
+        @include transition(all, 0.5s, ease);
+
+        ul {
+    		margin: 0;
+    		padding: 0;
+    		li {
+    			margin: $width-gutter auto;
+    			a {
+                    color: $color-md-green;
+
+                    font-size: $font-size-header-small;
+                    font-weight: 400;
+
+                    text-decoration: none;
+
+                    &:hover,
+                    &.active {
+                        color: $color-dk-green;
+                    }
+                }
+    		}
+    	}
+
+        .copyright {
+            position: absolute;
+            bottom: $width-gutter + 4;
+
+            p {
+                font-size: $font-size-body-xxsmall;
+                line-height: normal;
+                a {
+                    color: $color-dk-green;
+                    border-bottom: 1px solid $color-dk-green;
+
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+}
+
+.btn {
+    position: relative;
+
+    display: inline-block;
+    padding: $width-gutter/2 $width-gutter/1.5;
+
+    border: 4px solid $color-white;
+    color: $color-white;
+
+    font-family: $font-header;
+    font-weight: 500;
+
+    letter-spacing: 0.05em;
+
+    text-decoration: none;
+    text-transform: lowercase;
+
+    margin: 0;
+
+    @include transition(all, 0.2s, ease);
+
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+
+        background-color: $color-white;
+    }
+
+    &:before {
+        bottom: -8px;
+        right: -8px;
+        left: 4px;
+
+        height: 4px;
+
+        @include transition(all, 0.2s, ease);
+    }
+
+    &:after {
+        top: 4px;
+        right: -8px;
+        bottom: -8px;
+
+        width: 4px;
+
+        @include transition(all, 0.2s, ease);
+    }
+
+    &:hover {
+
+        margin: 4px 0 0 4px;
+
+        background-color: rgba($color-dk-green, .5);
+
+        @include transition(all, 0.2s, ease);
+
+        &:before {
+            right: -4px;
+            bottom: -4px;
+            @include transition(all, 0.2s, ease);
+        }
+        &:after {
+            right: -4px;
+            bottom: -4px;
+            @include transition(all, 0.2s, ease);
+        }
+    }
+}
