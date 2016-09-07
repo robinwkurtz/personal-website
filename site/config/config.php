@@ -15,7 +15,7 @@ for more information: http://getkirby.com/license
 
 */
 
-c::set('license', 'put your license key here');
+c::set('license', 'K2-PERSONAL-672ad7637d372aff3df8c5d3b643cbf4');
 
 /*
 
@@ -28,3 +28,8 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
+
+c::set('cache.ignore', array(
+  'contact',
+  'my-work'
+));

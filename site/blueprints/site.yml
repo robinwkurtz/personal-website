@@ -7,6 +7,22 @@ fields:
     initial:
         label: Initial
         type:  text
+    social:
+        label: Social Links
+        type: structure
+        entry: >
+            {{label}} ({{class}})<br />
+            @ {{url}}
+        fields:
+            label:
+                label: Label
+                type: text
+            url:
+                label: URL
+                type: text
+            class:
+                label: Class
+                type: text
     author:
         label: Author
         type:  text

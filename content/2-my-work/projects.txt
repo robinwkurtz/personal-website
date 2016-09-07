@@ -2,4 +2,10 @@ Title: My Work
 
 ----
 
-Text: ###Checkout out some of my past design and development projects. My work consists of both collaborative and personal pieces!
+Text: 
+
+# Checkout out some of my projects.
+
+#### My work consists of both collaborative and personal pieces!
+
+#### Or  send me a (link: http://localhost/personal-website/contact text: message) for a list of website's I've worked on in the passed while.

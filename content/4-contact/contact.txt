@@ -2,4 +2,7 @@ Title: Contact
 
 ----
 
-Text: Like what you see? Got a question or maybe you're interested in collaborating?
+Text: 
+
+##Like what you see?
+####Got a question or maybe you're interested in collaborating?

@@ -1,12 +1,24 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+<main class="main" role="main">
 
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
+    <div class="row">
+        <div class="column content">
+            <?php echo $page->text()->kirbytext();
+            if ($site->user()) : ?>
+                <a href="<?php echo $site->url() ?>/assets/scripts/behance/behance-api.php" target="_blank" class="btn">
+                    Fetch Projects
+                </a>
+            <?php endif; ?>
+        </div>
     </div>
 
-  </main>
+    <div class="row">
+        <div class="column">
+            <?php snippet('behance') ?>
+        </div>
+    </div>
+
+</main>
 
 <?php snippet('footer') ?>

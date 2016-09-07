@@ -1,9 +1,12 @@
-@import 'reset', 'variables', 'mixins', 'grid', 'typography';
+@import 'helpers/reset', 'helpers/variables', 'helpers/mixins', 'helpers/grid', 'helpers/fonts', 'helpers/typography', 'helpers/animations';
+@import 'common', 'form';
 
 // Base
 
 html,
 body {
+    min-width: 320px;
+
     color: $color-body;
     font-family: $font-body;
 
@@ -41,7 +44,7 @@ body {
     	}
 
         .burger {
-            .burger-icon {
+            .icon-burger {
                 @include burger-to-cross(3px, 3px);
             }
         }
@@ -75,12 +78,27 @@ body {
         width: 100%;
         min-height: calc(100vh - 48px);
 
+        background-attachment: fixed;
+        background-image: url('../images/pattern-geo.svg');
         background-color: $color-md-green;
+        background-repeat: repeat;
+        background-position: center;
+
         color: $color-white;
 
         > .main {
             display: table-cell;
             vertical-align: middle;
+
+            padding: $width-gutter*4 $width-gutter/2 $width-gutter*2 $width-gutter/2;
+
+            // &:before {
+            //     content: '';
+            //     display: block;
+            //
+            //     width: 100%;
+            //     height: 91px;
+            // }
         }
     }
 
@@ -101,6 +119,8 @@ header {
     background-color: $color-white;
 
     z-index: 9;
+
+    @include box-sizing(border-box);
 
     .logo {
         display: inline-block;
@@ -127,7 +147,8 @@ header {
         }
     }
 
-    .menu-button {
+    .menu-button,
+    .heart-menu-button {
         position: relative;
         display: table;
 
@@ -140,12 +161,23 @@ header {
 
         @include border-radius(50%);
 
-        .burger {
+        .burger,
+        .icon-heart {
             display: table-cell;
             vertical-align: middle;
-            .burger-icon {
+        }
+
+        .burger {
+            .icon-burger {
                 @include burger(24px, 2px, 4px, $color-white, 0, 0.3s);
             }
+        }
+
+        .icon-heart {
+            color: $color-white;
+
+            font-size: 140%;
+            text-align: center;
         }
 
         &:hover {
@@ -155,10 +187,16 @@ header {
         }
     }
 
+    .heart-menu-button {
+        &.is-active {
+            @include rotate(-90deg);
+        }
+    }
+
     .menu {
 
         position: fixed;
-    	top: 0;
+    	top: 91px;
     	right: auto;
     	bottom: 0;
     	left: -$width-menu;
@@ -180,8 +218,14 @@ header {
         ul {
     		margin: 0;
     		padding: 0;
+
     		li {
     			margin: $width-gutter auto;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+
     			a {
                     color: $color-md-green;
 
@@ -215,74 +259,286 @@ header {
         }
     }
 
+    .heart-menu {
+
+        float: right;
+
+        height: 0;
+
+        margin-top: $width-gutter/2;
+        margin-bottom: -$width-gutter/2;
+
+        clear: both;
+
+        @media #{$medium-up} {
+            width: 0%;
+            height: 40px;
+
+            margin-top: 0;
+            margin-right: $width-gutter/2;
+
+            clear: none;
+        }
+
+        overflow: hidden;
+
+         @include transition(all, 0.5s, ease);
+
+         &.is-active {
+
+             height: 40px;
+
+             @media #{$medium-up} {
+                 width: calc(100% - 52px);
+             }
+
+             @include transition(all, 0.5s, ease);
+
+             ul > li {
+
+                 opacity: 1;
+
+                 @include transition(all, 0.5s, ease);
+             }
+         }
+
+         ul {
+
+             width: 200px;
+             font-size: 0;
+
+             > li {
+
+                 display: inline-block;
+
+                 width: 40px;
+                 line-height: 40px;
+
+                 margin: 0;
+
+                 text-align: center;
+
+                 background-color: $color-md-green;
+
+                 opacity: 0;
+
+                 @include transition(all, 0.5s, ease);
+
+                 &:hover {
+                     @include transition(all, 0.5s, ease);
+                 }
+
+                 > a {
+                     display: block;
+
+                     color: $color-white;
+                 }
+
+                 &.behance {
+                     background-color: $color-behance;
+                     &:hover {
+                         background-color: darken($color-behance, 10%);
+                     }
+                 }
+
+                 &.instagram {
+                    background:
+                    /////// Use radial gradients to get the rounded
+                    /////// gradient effect in each corner
+
+                    // left bottom
+                    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+                    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+                    // left top
+                    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+                    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+                    //  right top
+                    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+                    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+                    // right bottom
+                    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+
+                    /////// create a base coat to smooth
+                    /////// corner gradients
+                    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+                    background-color: $color-instagram;
+                    &:hover {
+                        opacity: .9;
+                        // background-color: darken($color-instagram, 10%);
+                    }
+                 }
+
+                 &.dribbble {
+                     background-color: $color-dribbble;
+                     &:hover {
+                         background-color: darken($color-dribbble, 10%);
+                     }
+                 }
+
+                 &.github {
+                     background-color: $color-github;
+                     &:hover {
+                         background-color: lighten($color-github, 10%);
+                     }
+                 }
+
+                 &.linkedin {
+                     background-color: $color-linkedin;
+                     &:hover {
+                         background-color: darken($color-linkedin, 10%);
+                     }
+                 }
+
+                 &.paper-plane {
+                     background-color: $color-md-green;
+                     &:hover {
+                         background-color: darken($color-md-green, 10%);
+                     }
+                 }
+             }
+         }
+
+    }
+
 }
 
-.btn {
-    position: relative;
-
-    display: inline-block;
-    padding: $width-gutter/2 $width-gutter/1.5;
+.bio-image {
+    max-width: 230px;
+    margin: 0 auto;
 
     border: 4px solid $color-white;
-    color: $color-white;
+    background-color: rgba($color-dk-green, .5);
 
-    font-family: $font-header;
-    font-weight: 500;
+    cursor: pointer;
+    overflow: hidden;
 
-    letter-spacing: 0.05em;
+    @include border-radius(50%);
 
-    text-decoration: none;
-    text-transform: lowercase;
+    > div {
+        position: relative;
+        padding: 20%;
 
-    margin: 0;
+        background-image: url('../images/logo-rk.png');
+        background-origin: content-box;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
 
-    @include transition(all, 0.2s, ease);
+        &:before,
+        &:after {
+            content: '';
 
-    &:before,
-    &:after {
-        content: '';
-        position: absolute;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
 
-        background-color: $color-white;
-    }
+            @include border-radius(50%);
 
-    &:before {
-        bottom: -8px;
-        right: -8px;
-        left: 4px;
+            opacity: 0;
 
-        height: 4px;
-
-        @include transition(all, 0.2s, ease);
-    }
-
-    &:after {
-        top: 4px;
-        right: -8px;
-        bottom: -8px;
-
-        width: 4px;
-
-        @include transition(all, 0.2s, ease);
-    }
-
-    &:hover {
-
-        margin: 4px 0 0 4px;
-
-        background-color: rgba($color-dk-green, .5);
-
-        @include transition(all, 0.2s, ease);
-
-        &:before {
-            right: -4px;
-            bottom: -4px;
             @include transition(all, 0.2s, ease);
         }
+
+        &:before {
+            background-image: url('../images/portrait.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
         &:after {
-            right: -4px;
-            bottom: -4px;
-            @include transition(all, 0.2s, ease);
+            background-image: url('../images/portrait-alt.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        &:hover {
+            &:before {
+                opacity: 1;
+
+                @include transition(all, 0.2s, ease);
+            }
+        }
+
+        &:active,
+        &:focus {
+            &:before {
+                opacity: 0;
+            }
+            &:after {
+                opacity: 1;
+
+                @include transition(all, 0.2s, ease);
+            }
         }
     }
 }
+
+.projects {
+	margin-top: $width-gutter;
+	.project-item {
+		margin: 0;
+		.project-image {
+			position:            relative;
+			border:              4px solid $color-white;
+			background-size:     cover;
+			background-position: center;
+			.project-overlay {
+				opacity:             0;
+
+				position:            absolute;
+				top:                 0;
+				right:               0;
+				bottom:              0;
+				left:                0;
+
+                background-color: rgba($color-dk-green, .5);
+
+                @extend .icon-font;
+                @extend .icon-heart;
+
+                &:before {
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -45px;
+
+                    left: 50%;
+                    margin-left: -50px;
+
+                    width: 100px;
+                    line-height: 100px;
+
+                    color: $color-white;
+
+                    font-size: 64px;
+                    text-align: center;
+                }
+			}
+		}
+		&:hover {
+			.project-image {
+				.project-overlay {
+					opacity: 1;
+					@include transition(all, ease, 0.2s);
+				}
+			}
+		}
+		&.project-collaboration {
+			.project-image {
+				.project-overlay {
+                    @extend .icon-user-add;
+				}
+			}
+		}
+		.project-gallery {
+			&.gallery-item {
+				display: none;
+			}
+		}
+	}
+}
+
+@import 'plugins/fancybox';

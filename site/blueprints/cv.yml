@@ -1,0 +1,16 @@
+title: Page
+pages: true
+files: true
+fields:
+    title:
+        label: Title
+        type:  text
+    col1:
+        label: Column One
+        type:  textarea
+    col2:
+        label: Column Two
+        type:  textarea
+    text:
+        label: Text
+        type:  textarea

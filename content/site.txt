@@ -17,8 +17,38 @@ Keywords:
 Copyright: 
 
 © (date: Year) All rights reserved.
-Made by (link: https://github.com/robinwkurtz text: robinwkurtz) with (link:https://getkirby.com/made-with-kirby-and-love text: with Kirby and ♥)
+Created by (link: https://github.com/robinwkurtz text: robinwkurtz)
+with help from (link:https://getkirby.com/made-with-kirby-and-love text: with Kirby and ♥)
 
 ----
 
 Initial: RK
+
+----
+
+Social: 
+
+- 
+  label: Behance
+  url: https://www.behance.net/robinwkurtz
+  icon: behance
+  class: behance
+- 
+  label: Instagram
+  url: https://www.instagram.com/robinwkurtz/
+  icon: instagram
+  class: instagram
+- 
+  label: GitHub
+  url: https://github.com/robinwkurtz
+  class: github
+- 
+  label: LinkedIn
+  url: >
+    https://www.linkedin.com/in/robin-kurtz-238a934b
+  class: linkedin
+- 
+  label: Contact Me
+  url: >
+    http://localhost/personal-website/contact
+  class: paper-plane

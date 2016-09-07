@@ -10,6 +10,12 @@
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <?php // echo js('assets/scripts/vendor/jquery-1.11.0.min.js') ?>
+
+    <?php echo js('assets/scripts/vendor/jquery.placeholders.min.js') ?>
+    <?php echo js('assets/scripts/vendor/jquery.validate.min.js') ?>
+    <?php echo js('assets/scripts/vendor/fancybox/jquery.fancybox.min.js') ?>
+
 	<?php echo js('assets/scripts/main.js') ?>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,700" rel="stylesheet">
@@ -35,9 +41,15 @@
                 <div class="column float">
                     <a href="#" class="js-menu-button menu-button">
                         <div class="burger">
-                            <div class="burger-icon">&nbsp;</div>
+                            <div class="icon-burger">&nbsp;</div>
                         </div>
                     </a>
+                </div>
+                <div class="column float">
+                    <a href="#" class="js-heart-menu-button heart-menu-button" style="float: right;">
+                        <div class="icon-heart css-bounce"></div>
+                    </a>
+                    <?php snippet('heart-menu'); ?>
                 </div>
             </div>
             <div class="js-menu menu">

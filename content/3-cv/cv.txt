@@ -1,0 +1,60 @@
+Title: Curriculum Vitae
+
+----
+
+Text: 
+
+### Attributes
+
+**Knowledge is key** — My professional objective is to learn. In a rapid paced world where everything is developing and changing, we must constantly adapt. This is why I allow my curiosity to drive my work ethic by continuously striving to learn when it comes to design and web development. Other qualities i’d like to share with you are as follows:
+
+**Hard worker** — Striving to be a hard and modest worker, I pride myself in being efficient.
+
+**Team member** — I am an excellent team player who welcomes constructive criticism and is open to others’ opinions as it has allowed me to play many different roles in a team dynamic, from leader, to supporter. 
+
+**Organized** — In my past professional experiences, I have had the opportunity to tackle a wide range of organizational challenges, from sorting, labeling and categorizing surplus maintenance parts to maintaining asset heavy projects. These experiences have given me the ability to efficiently organize as well as deal with a wide range of tasks.
+
+**Handy** — Growing up with a handy father, I’ve developed a certain handiness. This has allowed me to become comfortable when creating mock-ups and other hands on work.
+
+**Software knowledge** — When it comes to programs, I’ve always shown strength, allowing me to learn fast and help others. I feel very comfortable with programs such as adobe photoshop, illustrator and indesign, more recently phpstorm.
+
+**Packaging experience** — Since completing my d.e.c at dawson college i’ve had the chance to learn a lot about graphic design. I was introduced to packaging and infography and began to learn tricks and tools to work efficiently. These experiences evolved into understanding dielines and basic print production.
+
+**Branding experience** — Beside layout and structural design, I worked on branding and identity. I’ve had the luxury of assisting the creation of many logos since my time in school which has allowed me to work on my brainstorming skills. Apart from this, i’ve also been able to fine tune my abilities with illustrator and vector drawings.
+
+**Web experience** — Starting out with the odd small web project (simple sites & landing pages) I began to develop my knowledge of html and css. Since then, I've had over 2 years of experience building more advanced sites, most of which integrated with wordpress. My knowledge of php, html, javascript as well as css and scss has developed increasingly and will continue to build.
+
+----
+
+Col1: 
+
+### Education
+
+**(link: http://graphicdesign.dawsoncollege.qc.ca/2012/index.html text: Dawson College  popup: yes)**
+DEC in Graphic Design
+2009 to 2012
+
+**Beaconsfield High School**
+Focused in Physics, Chemistry & Art
+
+----
+
+Col2: 
+
+### Experience
+
+****Front-end Developer****
+(link: http://peoplelikeus.ca/ text: People Like Us popup: yes)
+March 2016 to Present
+
+**Web Designer & Front-end Developer**
+(link: http://designshopp.com text: Design Shopp popup: yes)
+February 2014 to March 2016
+
+**Graphic Designer**
+(link: http://chezvalois.com text: Chez Valois - Branding & Design popup: yes)
+September 2012 to February 2014
+
+**Assistant to Maintenance Team**
+(link: http://www.excelitas.com text: Excelitas Technologies popup: yes)
+July 2010 to January 2012 (Between school semesters)
