@@ -2,4 +2,8 @@ Title: 404
 
 ----
 
-Text: ###Sorry, but you've found a page that does not exist, please use the above navigation to find your way back.
+Text: 
+
+#This is not the page you are looking for... move along, move along.
+
+###I kid! I joke! But seriously, maybe you were looking for (link: /about text: me), or (link: /my-work text: my work)?

@@ -11,14 +11,18 @@
 					</div>
 				</div>
 				<br/>
-				<div class="css-bounce align-center">
+				<div class="css-bounce align-center show-for-medium-up">
 					<h4>
 						Click me
 					</h4>
 				</div>
             </div>
 
-            <div class="column small-12 medium-6 medium-offset-1 content">
+            <div class="column small-12 show-for-small-only">
+                <?php // Column Spacer ?> &nbsp;
+            </div>
+
+            <div class="column small-12 medium-7 large-6 large-offset-1 content">
                 <?php echo $page->text()->kirbytext() ?>
             </div>
 

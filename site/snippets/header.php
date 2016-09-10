@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 
     <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
     <meta name="description" content="<?php echo $site->description()->html() ?>">
@@ -16,10 +16,46 @@
     <?php echo js('assets/scripts/vendor/jquery.validate.min.js') ?>
     <?php echo js('assets/scripts/vendor/fancybox/jquery.fancybox.min.js') ?>
 
-	<?php echo js('assets/scripts/main.js') ?>
+	<?php echo js('assets/scripts/main.min.js') ?>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,700" rel="stylesheet">
     <?php echo css('assets/css/style.min.css') ?>
+
+    <script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-31515020-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+
+  <!----------------------
+    .______   ____    ____
+    |   _  \  \   \  /   /
+    |  |_)  |  \   \/   /
+    |   _  <    \_    _/
+    |  |_)  |     |  |
+    |______/      |__|
+
+    .______        ______   .______    __  .__   __.
+    |   _  \      /  __  \  |   _  \  |  | |  \ |  |
+    |  |_)  |    |  |  |  | |  |_)  | |  | |   \|  |
+    |      /     |  |  |  | |   _  <  |  | |  . `  |
+    |  |\  \----.|  `--'  | |  |_)  | |  | |  |\   |
+    | _| `._____| \______/  |______/  |__| |__| \__|
+
+     __  ___  __    __  .______     .___________.________
+    |  |/  / |  |  |  | |   _  \    |           |       /
+    |  '  /  |  |  |  | |  |_)  |   `---|  |----`---/  /
+    |    <   |  |  |  | |      /        |  |       /  /
+    |  .  \  |  `--'  | |  |\  \----.   |  |      /  /----.
+    |__|\__\  \______/  | _| `._____|   |__|     /________|
+
+    --------------------------------------------------------!>
+
 
 </head>
 <body>

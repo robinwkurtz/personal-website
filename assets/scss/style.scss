@@ -5,8 +5,6 @@
 
 html,
 body {
-    min-width: 320px;
-
     color: $color-body;
     font-family: $font-body;
 
@@ -15,32 +13,48 @@ body {
 }
 
 html {
+    min-width: 320px;
     height: 100%;
 
     padding: $width-gutter;
 
     background-color: $color-white;
+
+    &:after {
+        content: '';
+        position: fixed;
+
+        top: 0;
+        right: 0;
+        bottom: 0;
+        bottom: 0;
+
+        width: $width-gutter;
+
+        background-color: $color-white;
+    }
 }
 
 body {
+    min-width: 320px;
     min-height: 100%;
+    right: 0;
+    left: 0;
 
     position: relative;
-	right: 0;
-	left: 0;
 
-	@include transition(all, 0.5s, ease);
+	@include transition(all 0.5s ease);
 
     &.is-active {
     	right: -$width-menu;
     	left: $width-menu;
 
         overflow: hidden;
-    	@include transition(all, 0.5s, ease);
+    	@include transition(all 0.5s ease);
 
         .menu {
     		left: 0;
-            @include transition(all, 0.5s, ease);
+            @include transition(all 0.5s ease);
     	}
 
         .burger {
@@ -76,7 +90,7 @@ body {
     .site {
         display: table;
         width: 100%;
-        min-height: calc(100vh - 48px);
+        height: calc(100vh - 48px);
 
         background-attachment: fixed;
         background-image: url('../images/pattern-geo.svg');
@@ -90,15 +104,7 @@ body {
             display: table-cell;
             vertical-align: middle;
 
-            padding: $width-gutter*4 $width-gutter/2 $width-gutter*2 $width-gutter/2;
-
-            // &:before {
-            //     content: '';
-            //     display: block;
-            //
-            //     width: 100%;
-            //     height: 91px;
-            // }
+            padding: $width-gutter*5 $width-gutter/2 $width-gutter*2 $width-gutter/2;
         }
     }
 
@@ -113,6 +119,7 @@ header {
     left: 0;
 
     width: 100%;
+    min-width: 320px;
 
     padding: $width-gutter;
 
@@ -134,16 +141,17 @@ header {
         font-weight: 700;
 
         letter-spacing: 0.05em;
+        line-height: 1;
 
         text-decoration: none;
         text-transform: uppercase;
 
-        @include transition(all, 0.5s, ease);
+        @include transition(all 0.5s ease);
 
         &:hover {
             background-color: $color-dk-green;
 
-            @include transition(all, 0.5s, ease);
+            @include transition(all 0.5s ease);
         }
     }
 
@@ -183,7 +191,7 @@ header {
         &:hover {
             background-color: $color-dk-green;
 
-            @include transition(all, 0.5s, ease);
+            @include transition(all 0.5s ease);
         }
     }
 
@@ -196,13 +204,15 @@ header {
     .menu {
 
         position: fixed;
-    	top: 91px;
+    	top: 88px;
     	right: auto;
-    	bottom: 0;
+    	bottom: auto;
     	left: -$width-menu;
 
     	width: $width-menu;
-    	padding: 0 $width-gutter;
+        min-height: calc(100vh - 88px);
+
+    	padding: 0 $width-gutter 70px $width-gutter;
 
     	background-color: $color-white;
         color: $color-md-green;
@@ -213,7 +223,7 @@ header {
     	z-index: 5;
 
         @include box-sizing(border-box);
-        @include transition(all, 0.5s, ease);
+        @include transition(all 0.5s ease);
 
         ul {
     		margin: 0;
@@ -248,7 +258,7 @@ header {
 
             p {
                 font-size: $font-size-body-xxsmall;
-                line-height: normal;
+                line-height: 1.5;
                 a {
                     color: $color-dk-green;
                     border-bottom: 1px solid $color-dk-green;
@@ -263,12 +273,39 @@ header {
 
         float: right;
 
-        height: 0;
-
         margin-top: $width-gutter/2;
         margin-bottom: -$width-gutter/2;
 
         clear: both;
+
+        @media #{$small-only} {
+            position: absolute;
+
+            top: 40px;
+            right: -1px;
+            bottom: auto;
+            left: -1px;
+
+            border: 1px solid $color-white;
+            border-bottom: 10px solid $color-white;
+
+            ul {
+                width: 100% !important;
+                height: 0;
+                @include transition(height 0.5s ease);
+
+                > li  {
+                   width: 20% !important;
+               }
+            }
+
+            &.is-active {
+                ul {
+                    height: 40px;
+                    @include transition(height 0.5s ease);
+                }
+            }
+        }
 
         @media #{$medium-up} {
             width: 0%;
@@ -278,27 +315,21 @@ header {
             margin-right: $width-gutter/2;
 
             clear: none;
+
+            @include transition(width 0.5s ease);
+
+            &.is-active {
+                 width: calc(100% - 52px);
+                 @include transition(width 0.5s ease);
+            }
         }
 
         overflow: hidden;
 
-         @include transition(all, 0.5s, ease);
-
          &.is-active {
-
-             height: 40px;
-
-             @media #{$medium-up} {
-                 width: calc(100% - 52px);
-             }
-
-             @include transition(all, 0.5s, ease);
+             margin-bottom: 0;
 
              ul > li {
-
-                 opacity: 1;
-
-                 @include transition(all, 0.5s, ease);
              }
          }
 
@@ -317,15 +348,12 @@ header {
                  margin: 0;
 
                  text-align: center;
-
                  background-color: $color-md-green;
 
-                 opacity: 0;
-
-                 @include transition(all, 0.5s, ease);
+                 @include transition(background-color 0.5s ease, opacity 0.5s ease);
 
                  &:hover {
-                     @include transition(all, 0.5s, ease);
+                     @include transition(background-color 0.5s ease, opacity 0.5s ease);
                  }
 
                  > a {
@@ -424,55 +452,59 @@ header {
         background-repeat: no-repeat;
         background-size: contain;
 
-        &:before,
-        &:after {
-            content: '';
+        @media #{$medium-up} {
 
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-
-            @include border-radius(50%);
-
-            opacity: 0;
-
-            @include transition(all, 0.2s, ease);
-        }
-
-        &:before {
-            background-image: url('../images/portrait.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        &:after {
-            background-image: url('../images/portrait-alt.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        &:hover {
-            &:before {
-                opacity: 1;
-
-                @include transition(all, 0.2s, ease);
-            }
-        }
-
-        &:active,
-        &:focus {
-            &:before {
-                opacity: 0;
-            }
+            &:before,
             &:after {
-                opacity: 1;
+                content: '';
 
-                @include transition(all, 0.2s, ease);
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+
+                @include border-radius(50%);
+
+                opacity: 0;
+
+                @include transition(all 0.2s ease);
             }
+
+            &:before {
+                background-image: url('../images/portrait.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            &:after {
+                background-image: url('../images/portrait-alt.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            &:hover {
+                &:before {
+                    opacity: 1;
+
+                    @include transition(all 0.2s ease);
+                }
+            }
+
+            &:active,
+            &:focus {
+                &:before {
+                    opacity: 0;
+                }
+                &:after {
+                    opacity: 1;
+
+                    @include transition(all 0.2s ease);
+                }
+            }
+
         }
     }
 }

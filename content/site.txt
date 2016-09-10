@@ -49,6 +49,5 @@ Social:
   class: linkedin
 - 
   label: Contact Me
-  url: >
-    http://localhost/personal-website/contact
+  url: /contact
   class: paper-plane

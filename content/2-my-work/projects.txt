@@ -8,4 +8,4 @@ Text:
 
 #### My work consists of both collaborative and personal pieces!
 
-#### Or  send me a (link: http://localhost/personal-website/contact text: message) for a list of website's I've worked on in the passed while.
+#### Or  send me a (link: /contact text: message) for a list of website's I've worked on in the passed while.

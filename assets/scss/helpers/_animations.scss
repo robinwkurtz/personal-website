@@ -42,5 +42,5 @@
 
 .loader,
 .loaded {
-	@include transition(all, 0.2s, ease);
+	@include transition(all 0.2s ease);
 }

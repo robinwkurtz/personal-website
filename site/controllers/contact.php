@@ -10,9 +10,9 @@ return function($site, $pages, $page) {
         'actions' => [
             [
                 '_action' => 'email',
-                'to'      => 'robinwkurtz@gmail.com',
-                'sender'  => 'robinwkurtz@gmail.com',
-                'subject' => 'Form Submission from New Website'
+                'to'      => 'info@robinwkurtz.com',
+                'sender'  => 'info@robinwkurtz.com',
+                'subject' => 'Contact Submission - Robin Kurtz'
             ]
         ]
     ]);

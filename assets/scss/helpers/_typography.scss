@@ -34,7 +34,7 @@ h4 {
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-header;
 
-	@include transition(all, 0.2s, ease);
+	@include transition(all 0.2s ease);
 }
 
 p, ul li, ol li {
@@ -81,11 +81,11 @@ p {
 		text-decoration: none;
 		opacity: .65;
 
-		@include transition(all, 0.2s, ease);
+		@include transition(all 0.2s ease);
 
 		&:hover {
 			opacity: 1;
-			@include transition(all, 0.2s, ease);
+			@include transition(all 0.2s ease);
 		}
 
 		&.btn {
@@ -100,8 +100,16 @@ p {
 	}
 }
 
+.text-header {
+	font-family: $font-header;
+}
+
+.text-body {
+	font-family: $font-body;
+}
+
 .text-light {
-	font-weight: 200;
+	font-weight: 400;
 }
 
 .text-upper {
