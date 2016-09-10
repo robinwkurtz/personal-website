@@ -16,13 +16,13 @@ $fancybox-background: $color-black;
 					width:   20px;
 					height:  69px;
 					padding: 11px;
-					@include transition(all, 0.2s, ease);
+					@include transition(all 0.2s ease);
 				}
 				&.fancybox-next, &.fancybox-prev {
 					span {
 						&:hover {
 							background-color: rgba($fancybox-color, .9);
-							@include transition(all, 0.2s, ease);
+							@include transition(all 0.2s ease);
 						}
 					}
 				}
@@ -55,10 +55,10 @@ $fancybox-background: $color-black;
 				top:               25px;
 				right:             25px;
 				border:            0 none;
-				@include transition(all, 0.2s, ease);
+				@include transition(all 0.2s ease);
 				&:hover {
 					background-color: $fancybox-color;
-					@include transition(all, 0.2s, ease);
+					@include transition(all 0.2s ease);
 				}
 			}
 		}

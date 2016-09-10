@@ -26,7 +26,7 @@
 
     opacity: 1;
 
-    @include transition(all, 0.2s, ease);
+    @include transition(all 0.2s ease);
 
     &:before,
     &:after {
@@ -43,7 +43,7 @@
 
         height: 4px;
 
-        @include transition(all, 0.2s, ease);
+        @include transition(all 0.2s ease);
     }
 
     &:after {
@@ -53,7 +53,7 @@
 
         width: 4px;
 
-        @include transition(all, 0.2s, ease);
+        @include transition(all 0.2s ease);
     }
 
     &:hover {
@@ -65,17 +65,17 @@
 
         background-color: rgba($color-dk-green, .5);
 
-        @include transition(all, 0.2s, ease);
+        @include transition(all 0.2s ease);
 
         &:before {
             right: -4px;
             bottom: -4px;
-            @include transition(all, 0.2s, ease);
+            @include transition(all 0.2s ease);
         }
         &:after {
             right: -4px;
             bottom: -4px;
-            @include transition(all, 0.2s, ease);
+            @include transition(all 0.2s ease);
         }
     }
 }

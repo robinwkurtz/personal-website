@@ -1,8 +1,8 @@
-$small-range: (0px, 480px);
-$medium-range: (481px, 1023px);
-$large-range: (1024px, 90em);
-$xlarge-range: (90.063em, 120em);
-$xxlarge-range: (120.063em, 99999999em);
+$small-range: (0px, 560px);
+$medium-range: (561px, 1023px);
+$large-range: (1024px, 1440px);
+$xlarge-range: (1441px, 1920px);
+$xxlarge-range: (1921px, 99999999em);
 
 $landscape: "only screen and (orientation: landscape)";
 $portrait: "only screen and (orientation: portrait)";

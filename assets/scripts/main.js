@@ -66,37 +66,18 @@ $(document).ready(function () {
 	$('.project-gallery-link').click(function (event){
 		event.preventDefault();
 		trigger = $(this).data('id');
-		console.log(trigger);
 		$('.project-gallery').each(function (event) {
 			target = $(this).data('id');
-			console.log(target);
 			if (trigger === target) {
 				$(this).closest('.gallery-item').click();
-				console.log(this);
 			}
 		});
 	});
 
-	// $(".project-gallery").each(function(){
-	// 	$(this).fancybox({
-	// 		href : $(this).attr('src'),
-	// 		maxWidth	: 1200,
-	// 		maxHeight	: 900,
-	// 		fitToView	: true,
-	// 		width		: '90%',
-	// 		height		: '90%',
-	// 		autoSize	: false,
-	// 		closeClick	: false,
-	// 		openEffect	: 'none',
-	// 		closeEffect	: 'none',
-	// 		padding     : 25
-	// 	});
-	// });
-
 });
 
 $(window).on('resize', function(e) {
-
+	$('.js-heart-menu, .js-heart-menu-button').removeClass('is-active');
 });
 
 // var resizeTimer;

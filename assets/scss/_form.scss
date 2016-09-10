@@ -32,12 +32,12 @@ form {
 
 			@include appearance(none);
 			@include box-sizing(border-box);
-			@include transition(all, 0.2s, ease);
+			@include transition(all 0.2s ease);
 
 			&:focus, &:hover {
 				background-color: rgba($color-dk-green, .5);
 				outline: 0;
-				@include transition(all, 0.2s, ease);
+				@include transition(all 0.2s ease);
 			}
 
 			@include placeholder {

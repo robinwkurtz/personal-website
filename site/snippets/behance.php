@@ -30,6 +30,7 @@ $behance_api = file_get_contents($json);
 		$count = 1;
 		if (is_array($projects) || is_object($projects)) :
 			foreach ($projects as $project) :
+
 				$id = $project["id"];
 				$name = $project["name"];
 				$url = $project["url"];
@@ -51,97 +52,18 @@ $behance_api = file_get_contents($json);
 
 				$project_api = $site->url() . '/assets/scripts/behance/project-' . $id . '.json';
 
-				// if (!file_exists($project_api)):
-				// 	$project_remote = 'https://www.behance.net/v2/projects/?api_key=' . $user_id;
-				// 	$project_api = $project_remote;
-				// endif;
-
 				$project_content = json_decode(file_get_contents($project_api), true);
-
-				$has_gallery = false;
 
 				?>
 
-				<li class="project-item project-<?php echo $count;
-				echo $inline_class; ?>">
-					<?php
-
-					/* Build up an array of gallery images */
-					$has_gallery[] = null;
-					foreach ($project_content as $project_contents => $contents) :
-						$modules = $contents["modules"];
-						$text = $contents["modules"][0]["text_plain"];
-						if ($modules) :
-							$img_count = 1;
-							foreach ($modules as $module) :
-								$has_gallery[] = $module["src"];
-								$img_count++;
-							endforeach;
-						endif;
-					endforeach;
-
-					/* Get count of gallery images for conditional */
-					$gallery_count = count(array_filter($has_gallery));
-
-					if ($has_gallery && $gallery_count > 1) : ?>
-						<a href="#" data-id="gallery-<?php echo $id; ?>" class="project-gallery-link">
-							<div class="project-image"style="background-image:url('<?php echo $thumb; ?>');">
-								<img src="<?php echo kirby()->urls()->assets() ?>/images/rectangle.png" class="rectangle" alt="<?php echo $name; ?>"/>
-								<div class="project-overlay"></div>
-							</div>
-						</a>
-					<?php else : ?>
+				<li class="project-item project-<?php echo $count; echo $inline_class; ?>">
+					<a href="<?php echo $url; ?>" target="_blank">
 						<div class="project-image" style="background-image:url('<?php echo $thumb; ?>');">
 							<img src="<?php echo kirby()->urls()->assets() ?>/images/rectangle.png" class="rectangle" alt="<?php echo $name; ?>"/>
 							<div class="project-overlay"></div>
 						</div>
-					<?php endif;
-					?>
-
+					</a>
 					<br/>
-
-					<?php if ($has_gallery && $gallery_count > 1) : ?>
-						<div class="project-gallery" data-id="gallery-<?php echo $id; ?>">
-							<?php
-							foreach ($project_content as $project_contents => $contents) :
-								$modules = $contents["modules"];
-								$text = $contents["modules"][0]["text_plain"];
-								if ($modules) :
-									$img_count = 1;
-									$image_array = array();
-									foreach ($modules as $module) :
-										$image_sizes = $module["sizes"];
-										if (!empty($image_sizes)) :
-											if (!empty($image_sizes["original"])) :
-												$image = $image_sizes["original"];
-											elseif (!empty($image_sizes["disp"])) :
-												$image = $image_sizes["disp"];
-											else :
-												$image = null;
-											endif;
-										endif;
-										$image_array[] = $image;
-									endforeach;
-
-									$images = array_unique($image_array);
-
-									$img_count = count($images);
-
-									if (!empty($images) & $img_count > 1) :
-										$counter = 1;
-										foreach ($images as $image) :
-											if (!empty($image)) :
-												echo '<a href="' . $image . '" rel="gallery-' . $id . '" class="project-gallery gallery-item"><img src="' . $image . '" style="width: 100px;height:auto;"/></a>';
-											endif;
-											$counter++;
-										endforeach;
-									endif;
-								endif;
-							endforeach;
-							?>
-						</div>
-					<?php endif; ?>
-
 					<div class="project-name content">
 						<h5 class="no-margin">
 							<?php echo $name;
@@ -151,16 +73,7 @@ $behance_api = file_get_contents($json);
 								echo '</span>';
 							endif; ?>
 						</h5>
-
 						<p class="text-xsmall text-upper no-margin small-padding-top third-space">
-							<?php if ($has_gallery && $gallery_count > 1) : ?>
-								<strong>
-									<a href="<?php echo $thumb; ?>"
-									   rel="gallery-<?php echo $id; ?>" class="project-gallery gallery-link">
-										Gallery
-									</a>
-								</strong> |
-							<?php endif ?>
 							<strong>
 								<a href="<?php echo $url; ?>" target="_blank">
 									View on Behance

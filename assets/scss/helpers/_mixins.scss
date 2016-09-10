@@ -152,13 +152,13 @@
 	transform:         scale($amount);
 }
 
-@mixin transition($transition-property: all, $transition-time: 1s, $method: ease) {
+@mixin transition($var...) {
 	//implied defaults
-	-webkit-transition: $transition-property $transition-time $method;
-	-moz-transition:    $transition-property $transition-time $method;
-	-ms-transition:     $transition-property $transition-time $method;
-	-o-transition:      $transition-property $transition-time $method;
-	transition:         $transition-property $transition-time $method;
+	-webkit-transition: $var;
+	-moz-transition:    $var;
+	-ms-transition:     $var;
+	-o-transition:      $var;
+	transition:         $var;
 }
 
 // Burger
