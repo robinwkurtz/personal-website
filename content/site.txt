@@ -33,21 +33,31 @@ Social:
   url: https://www.behance.net/robinwkurtz
   icon: behance
   class: behance
+  popup: external
 - 
   label: Instagram
   url: https://www.instagram.com/robinwkurtz/
   icon: instagram
   class: instagram
+  popup: external
+- 
+  label: Dribbble
+  url: https://dribbble.com/robinwkurtz
+  class: dribbble
+  popup: external
 - 
   label: GitHub
   url: https://github.com/robinwkurtz
   class: github
+  popup: external
 - 
   label: LinkedIn
   url: >
     https://www.linkedin.com/in/robin-kurtz-238a934b
   class: linkedin
+  popup: external
 - 
   label: Contact Me
   url: /contact
   class: paper-plane
+  popup: internal

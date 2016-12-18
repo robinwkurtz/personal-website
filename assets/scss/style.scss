@@ -16,7 +16,7 @@ html {
     min-width: 320px;
     height: 100%;
 
-    padding: $width-gutter;
+    padding: $width-gutter !important;
 
     background-color: $color-white;
 
@@ -256,6 +256,10 @@ header {
             position: absolute;
             bottom: $width-gutter + 4;
 
+            @media screen and (max-height: 480px) {
+                display: none;
+            }
+
             p {
                 font-size: $font-size-body-xxsmall;
                 line-height: 1.5;
@@ -295,7 +299,7 @@ header {
                 @include transition(height 0.5s ease);
 
                 > li  {
-                   width: 20% !important;
+                   // width: 20% !important;
                }
             }
 
@@ -338,10 +342,13 @@ header {
              width: 200px;
              font-size: 0;
 
+             background-color: $color-white;
+
              > li {
 
                  display: inline-block;
 
+                 min-width: 40px;
                  width: 40px;
                  line-height: 40px;
 
@@ -500,7 +507,6 @@ header {
                 }
                 &:after {
                     opacity: 1;
-
                     @include transition(all 0.2s ease);
                 }
             }

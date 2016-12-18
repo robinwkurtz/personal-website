@@ -10,8 +10,8 @@ return function($site, $pages, $page) {
         'actions' => [
             [
                 '_action' => 'email',
-                'to'      => 'info@robinwkurtz.com',
-                'sender'  => 'info@robinwkurtz.com',
+                'to'      => 'Robin Kurtz <info@robinwkurtz.com>',
+                'sender'  => 'Robin Kurtz <info@robinwkurtz.com>',
                 'subject' => 'Contact Submission - Robin Kurtz'
             ]
         ]

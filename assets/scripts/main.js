@@ -54,30 +54,6 @@ $(document).ready(function () {
         });
 	});
 
-	$('.project-gallery').fancybox({
-	    maxWidth	: 1200,
-	    maxHeight	: 900,
-	    fitToView	: true,
-	    width		: '90%',
-	    height		: '90%',
-	    autoSize	: false,
-	    closeClick	: false,
-	    openEffect	: 'none',
-	    closeEffect	: 'none',
-	    padding     : 25
-    });
-
-	$('.project-gallery-link').click(function (event){
-		event.preventDefault();
-		trigger = $(this).data('id');
-		$('.project-gallery').each(function (event) {
-			target = $(this).data('id');
-			if (trigger === target) {
-				$(this).closest('.gallery-item').click();
-			}
-		});
-	});
-
 });
 
 $(window).on('resize', function(e) {

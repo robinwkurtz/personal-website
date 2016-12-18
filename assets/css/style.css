@@ -236,7 +236,7 @@ form .input-wrapper {
   .small-12 {
     width: 100%; } }
 
-@media only screen and (min-width: 561px) {
+@media only screen and (min-width: 641px) {
   .medium-push-0 {
     position: relative;
     left: 0%;
@@ -657,7 +657,7 @@ form .input-wrapper {
   .small-block-grid-12 > li:nth-of-type(12n+1) {
     clear: both; } }
 
-@media only screen and (min-width: 561px) {
+@media only screen and (min-width: 641px) {
   .hide-for-small-only,
   .show-for-small-up,
   .show-for-medium-only,
@@ -1022,7 +1022,7 @@ span.show-for-landscape, span.hide-for-portrait {
     .small-padding-all.third-space {
       padding: 8px; } }
 
-@media only screen and (min-width: 561px) {
+@media only screen and (min-width: 641px) {
   .medium-padding-right {
     padding-right: 24px; }
     .medium-padding-right.triple-space {
@@ -1348,27 +1348,27 @@ span.show-for-landscape, span.hide-for-portrait {
 h1 {
   font-size: 32px;
   font-weight: 900; }
-  @media only screen and (min-width: 561px) {
+  @media only screen and (min-width: 641px) {
     h1 {
       font-size: 46px;
       line-height: 48px; } }
 
 h2 {
   font-size: 24px; }
-  @media only screen and (min-width: 561px) {
+  @media only screen and (min-width: 641px) {
     h2 {
       font-size: 32px; } }
 
 h3 {
   font-size: 24px; }
-  @media only screen and (min-width: 561px) {
+  @media only screen and (min-width: 641px) {
     h3 {
       font-size: 32px; } }
 
 h4 {
   font-size: 18px;
   font-weight: 600; }
-  @media only screen and (min-width: 561px) {
+  @media only screen and (min-width: 641px) {
     h4 {
       font-size: 24px; } }
 
@@ -1382,7 +1382,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul li, ol li {
   font-size: 16px; }
-  @media only screen and (min-width: 561px) {
+  @media only screen and (min-width: 641px) {
     p, ul li, ol li {
       font-size: 18px; } }
 
@@ -1694,7 +1694,7 @@ body {
 html {
   min-width: 320px;
   height: 100%;
-  padding: 24px;
+  padding: 24px !important;
   background-color: #FFF; }
   html:after {
     content: '';
@@ -1930,6 +1930,9 @@ header {
     header .menu .copyright {
       position: absolute;
       bottom: 28px; }
+      @media screen and (max-height: 480px) {
+        header .menu .copyright {
+          display: none; } }
       header .menu .copyright p {
         font-size: 11px;
         line-height: 1.5; }
@@ -1943,7 +1946,7 @@ header {
     margin-bottom: -12px;
     clear: both;
     overflow: hidden; }
-    @media only screen and (max-width: 560px) {
+    @media only screen and (max-width: 640px) {
       header .heart-menu {
         position: absolute;
         top: 40px;
@@ -1960,8 +1963,6 @@ header {
           -ms-transition: height 0.5s ease;
           -o-transition: height 0.5s ease;
           transition: height 0.5s ease; }
-          header .heart-menu ul > li {
-            width: 20% !important; }
         header .heart-menu.is-active ul {
           height: 40px;
           -webkit-transition: height 0.5s ease;
@@ -1969,7 +1970,7 @@ header {
           -ms-transition: height 0.5s ease;
           -o-transition: height 0.5s ease;
           transition: height 0.5s ease; } }
-    @media only screen and (min-width: 561px) {
+    @media only screen and (min-width: 641px) {
       header .heart-menu {
         width: 0%;
         height: 40px;
@@ -1992,9 +1993,11 @@ header {
       margin-bottom: 0; }
     header .heart-menu ul {
       width: 200px;
-      font-size: 0; }
+      font-size: 0;
+      background-color: #FFF; }
       header .heart-menu ul > li {
         display: inline-block;
+        min-width: 40px;
         width: 40px;
         line-height: 40px;
         margin: 0;
@@ -2058,7 +2061,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
-    @media only screen and (min-width: 561px) {
+    @media only screen and (min-width: 641px) {
       .bio-image > div:before, .bio-image > div:after {
         content: '';
         position: absolute;
@@ -2214,7 +2217,7 @@ header {
   display: table;
   background: #FFF; }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 640px) {
   .fancybox-wrap .fancybox-skin {
     padding: 4px !important; }
     .fancybox-wrap .fancybox-skin .fancybox-outer .fancybox-nav span {
