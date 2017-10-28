@@ -42,12 +42,15 @@ $behance_api = file_get_contents($json);
 					$usernames[] = $owner["username"];
 				endforeach;
 
-				if (in_array('chezvalois', $usernames)) :
+				if (in_array('michelvalois', $usernames) || in_array('sylvieracicot', $usernames)) :
 					$inline_class = ' project-collaboration';
 					$sub_title = '<a href="http://chezvalois.com" target="_blank">Chez Valois</a>';
+				elseif (in_array('PeopleLikeUs', $usernames) || in_array('juliettefoxtrot', $usernames)) :
+					$inline_class = ' project-collaboration';
+					$sub_title = '<a href="http://peoplelikeus.ca" target="_blank">People Like Us</a>';
 				else :
 					$inline_class = ' project-personal';
-					$sub_title = 'Dawson';
+					$sub_title = 'Personal Project';
 				endif;
 
 				$project_api = $site->url() . '/assets/scripts/behance/project-' . $id . '.json';
@@ -81,7 +84,6 @@ $behance_api = file_get_contents($json);
 							</strong>
 						</p>
 					</div>
-
 				</li>
 				<?php
 				$count++;

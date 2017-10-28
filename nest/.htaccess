@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^nest\.robinwkurtz\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.nest\.robinwkurtz\.com$
+RewriteRule ^/?$ "http\:\/\/therobinsnest\.ca" [R=301,L]
+

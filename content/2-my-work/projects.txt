@@ -9,3 +9,11 @@ Text:
 #### My work consists of both collaborative and personal pieces!
 
 #### Or  send me a (link: /contact text: message) for a list of website's I've worked on in the passed while.
+
+----
+
+Error: 
+
+#Oops, looks like something has gone wrong here...
+
+#### Please visit my (link: http://www.behance.net/robinwkurtz text: Behance popup: yes) portfolio or my (link: http://www.linkedin.com/pub/robin-kurtz/4b/a93/238 text: LinkedIn popup: yes) until I fix this all up.

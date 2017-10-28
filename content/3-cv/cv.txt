@@ -4,6 +4,18 @@ Title: Curriculum Vitae
 
 Text: 
 
+### Skillsets
+
+My skillset includes a wide variety of levels and disciplines. The following are the areas in which I've touched on over the years.
+
+**Development Languages & Processes** — CSS[3], SCSS, HTML[5], JavaScript, jQuery, NodeJs, PHP, React, .Liquid, Git, NPM, Webpack, Gulp, etc.
+
+**Frameworks & Bootstraps** — Wordpress, Woocommerce, Codeigniter, Kirby, Shopify, Magento, Foundations, Twitter Bootstrap, etc.
+
+**Tools** — Adobe Suite (Photoshop, Indesign, Illustrator), Google Suite, Microsoft Office (Word, Excel), Atom, Sublime, SouceTree, etc. & the desire to learn many more.
+
+**Marketing Tools** — Mailchimp, Mandrill & Oracle's Responsys
+
 ### Attributes
 
 **Knowledge is key** — My professional objective is to learn. In a rapid paced world where everything is developing and changing, we must constantly adapt. This is why I allow my curiosity to drive my work ethic by continuously striving to learn when it comes to design and web development. Other qualities i’d like to share with you are as follows:
@@ -16,13 +28,13 @@ Text:
 
 **Handy** — Growing up with a handy father, I’ve developed a certain handiness. This has allowed me to become comfortable when creating mock-ups and other hands on work.
 
-**Software knowledge** — When it comes to programs, I’ve always shown strength, allowing me to learn fast and help others. I feel very comfortable with programs such as adobe photoshop, illustrator and indesign, more recently phpstorm.
+**Software knowledge** — When it comes to programs, I’ve always shown strength, allowing me to learn fast and help others. I feel very comfortable with programs such as adobe photoshop, illustrator and indesign.
 
 **Packaging experience** — Since completing my d.e.c at dawson college i’ve had the chance to learn a lot about graphic design. I was introduced to packaging and infography and began to learn tricks and tools to work efficiently. These experiences evolved into understanding dielines and basic print production.
 
 **Branding experience** — Beside layout and structural design, I worked on branding and identity. I’ve had the luxury of assisting the creation of many logos since my time in school which has allowed me to work on my brainstorming skills. Apart from this, i’ve also been able to fine tune my abilities with illustrator and vector drawings.
 
-**Web experience** — Starting out with the odd small web project (simple sites & landing pages) I began to develop my knowledge of html and css. Since then, I've had over 2 years of experience building more advanced sites, most of which integrated with wordpress. My knowledge of php, html, javascript as well as css and scss has developed increasingly and will continue to build.
+**Web experience** — Starting out with the odd small web project (simple sites & landing pages) I began to develop my knowledge of html and css. Since then, I've had experience building more advanced sites, most of which integrated with wordpress. My knowledge of php, html, javascript as well as css and scss has developed increasingly and will continue to build.
 
 ----
 
@@ -30,12 +42,12 @@ Col1:
 
 ### Education
 
-**DEC in Graphic Design**
+**D.E.C in Graphic Design**
 (link: http://graphicdesign.dawsoncollege.qc.ca/2012/index.html text: Dawson College  popup: yes)
 2009 to 2012
 
 **High School Diploma**
-Beaconsfield High School
+(link: http://beaconsfield.lbpsb.qc.ca/ text: Beaconsfield High School popup: yes)
 Focused in Physics, Chemistry & Art
 
 ----
@@ -44,7 +56,7 @@ Col2:
 
 ### Experience
 
-****Front-end Developer****
+****Front-end Developer & Team Lead****
 (link: http://peoplelikeus.ca/ text: People Like Us popup: yes)
 March 2016 to Present
 

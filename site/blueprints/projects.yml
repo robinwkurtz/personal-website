@@ -9,3 +9,6 @@ fields:
   text:
     label: Text
     type:  textarea
+  error:
+    label: Error
+    type:  textarea
