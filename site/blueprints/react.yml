@@ -1,0 +1,8 @@
+title: React
+pages: false
+files: false
+fields:
+    title:
+        label: Title
+options:
+    template: true

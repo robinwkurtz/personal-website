@@ -7,8 +7,8 @@ function getBehanceAPI($user, $user_id)
 {
     $array = null;
     $x = 1;
-    $limit = 1;
-    while($x <= $limit) {
+    while($x <= 1) {
+        /* $file = json_decode(file_get_contents('https://www.behance.net/v2/users/' . $user . '/projects?client_id=' . $user_id . '&sort=appreciations&per_page=12&page=' . $x ), true); */
         $file = json_decode(file_get_contents('https://www.behance.net/v2/users/' . $user . '/projects?client_id=' . $user_id), true);
         if ($file['projects']) {
             foreach($file['projects'] as $project) :

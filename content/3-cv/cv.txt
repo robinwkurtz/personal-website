@@ -8,13 +8,13 @@ Text:
 
 My skillset includes a wide variety of levels and disciplines. The following are the areas in which I've touched on over the years.
 
-**Development Languages & Processes** — CSS[3], SCSS, HTML[5], JavaScript, jQuery, NodeJs, PHP, React, .Liquid, Git, NPM, Webpack, Gulp, etc.
+**Development Languages & Processes** — **CSS[3]**, **SCSS**, **HTML[5]**, **JavaScript**, jQuery, NodeJs, **PHP**, **React**, .Liquid, Git, NPM, Webpack, Gulp, etc.
 
-**Frameworks & Bootstraps** — Wordpress, Woocommerce, Codeigniter, Kirby, Shopify, Magento, Foundations, Twitter Bootstrap, etc.
+**Frameworks & Bootstraps** — **Wordpress**, Woocommerce, Codeigniter, Kirby, Shopify, Magento, **Foundations**, Twitter Bootstrap, etc.
 
-**Tools** — Adobe Suite (Photoshop, Indesign, Illustrator), Google Suite, Microsoft Office (Word, Excel), Atom, Sublime, SouceTree, etc. & the desire to learn many more.
+**Tools** — **Adobe Suite (Photoshop, Indesign, Illustrator)**, **Google Suite**, Microsoft Office (Word, Excel), Atom, Sublime, SouceTree, etc. & the desire to learn many more.
 
-**Marketing Tools** — Mailchimp, Mandrill & Oracle's Responsys
+**Marketing Tools** — **Mailchimp**, Mandrill & Oracle's Responsys
 
 ### Attributes
 

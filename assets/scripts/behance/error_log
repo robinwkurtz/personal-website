@@ -1,0 +1,10 @@
+[13-Jul-2017 23:27:10 America/Chicago] PHP Warning:  file_get_contents(https://www.behance.net/v2/users/robinwkurtz/projects?client_id=Jfh0WmUQrqTOkbQiplTxeWPLWKb9XuEz): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home2/rkurtz/public_html/assets/scripts/behance/behance-api.php on line 12
+[13-Jul-2017 23:27:18 America/Chicago] PHP Warning:  file_get_contents(https://www.behance.net/v2/users/robinwkurtz/projects?client_id=Jfh0WmUQrqTOkbQiplTxeWPLWKb9XuEz): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home2/rkurtz/public_html/assets/scripts/behance/behance-api.php on line 12
+[13-Jul-2017 23:28:58 America/Chicago] PHP Warning:  file_get_contents(https://www.behance.net/v2/users/robinwkurtz/projects?client_id=Jfh0WmUQrqTOkbQiplTxeWPLWKb9XuEz): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home2/rkurtz/public_html/assets/scripts/behance/behance-api.php on line 12
+[13-Jul-2017 23:32:10 America/Chicago] PHP Warning:  file_get_contents(https://www.behance.net/v2/users/robinwkurtz/projects?client_id=Jfh0WmUQrqTOkbQiplTxeWPLWKb9XuEz): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home2/rkurtz/public_html/assets/scripts/behance/behance-api.php on line 12
+[14-Jul-2017 00:00:02 America/Chicago] PHP Warning:  file_get_contents(https://www.behance.net/v2/users/robinwkurtz/projects?client_id=Jfh0WmUQrqTOkbQiplTxeWPLWKb9XuEz): failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+ in /home2/rkurtz/public_html/assets/scripts/behance/behance-api.php on line 12

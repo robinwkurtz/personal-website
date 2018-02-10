@@ -66,3 +66,414 @@
 [16-Feb-2017 05:09:29 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ':' in /home2/rkurtz/public_html/site/snippets/behance.php on line 52
 [19-Feb-2017 17:21:08 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
 [27-Feb-2017 21:44:33 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[14-Jul-2017 04:25:16 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-46597333.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:16 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-46406301.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-45193561.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-33883306.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27845443.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-9979453.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27845261.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27618719.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851491.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851569.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851639.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-7465257.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-8698139.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:17 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875009.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875085.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851695.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-33740888.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875055.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851919.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-46597333.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-46406301.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-45193561.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-33883306.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27845443.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-9979453.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:18 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27845261.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27618719.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851491.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851569.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851639.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-7465257.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-8698139.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875009.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875085.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851695.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-33740888.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875055.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851919.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:19 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-46597333.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-46406301.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-45193561.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-33883306.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27845443.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-9979453.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27845261.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27618719.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851491.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851569.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851639.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-7465257.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:20 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-8698139.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875009.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875085.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851695.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-33740888.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875055.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851919.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-46597333.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-46406301.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-45193561.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-33883306.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27845443.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:21 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-9979453.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27845261.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-27618719.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851491.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851569.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851639.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-7465257.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-8698139.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875009.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875085.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851695.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-33740888.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5875055.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:25:22 UTC] PHP Warning:  file_get_contents(http://robinwkurtz.com/assets/scripts/behance/project-5851919.json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/rkurtz/public_html/site/snippets/behance.php on line 64
+[14-Jul-2017 04:29:40 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 04:29:42 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 04:30:44 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 04:30:45 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 04:30:46 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 04:30:51 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 04:32:08 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 11:32:31 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 11:32:46 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 11:32:57 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 23
+[14-Jul-2017 11:34:37 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home2/rkurtz/public_html/site/snippets/behance.php on line 24
+[10-Aug-2017 19:40:36 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Sep-2017 05:02:00 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[27-Sep-2017 11:00:42 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Nov-2017 20:35:12 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[13-Nov-2017 20:35:12 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[13-Nov-2017 21:40:45 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[13-Nov-2017 21:40:45 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[13-Nov-2017 22:06:07 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[13-Nov-2017 23:17:29 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[13-Nov-2017 23:17:31 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[13-Nov-2017 23:17:33 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[13-Nov-2017 23:17:39 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[13-Nov-2017 23:17:44 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 00:41:02 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 04:12:43 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 12:36:33 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 14:19:02 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 17:16:32 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 18:32:33 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 19:18:15 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 19:39:13 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 19:54:14 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[14-Nov-2017 20:53:22 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 01:50:12 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 03:06:17 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 03:35:02 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 03:35:13 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 05:52:09 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 06:08:09 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 06:16:41 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 09:10:34 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 10:32:09 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 10:32:22 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 11:41:20 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 11:46:46 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 12:55:34 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 12:55:38 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 14:16:30 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 14:29:22 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 14:38:52 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 15:01:06 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 15:01:43 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 16:02:37 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 16:02:37 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 16:02:52 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 16:20:18 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 16:20:22 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 18:02:39 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 20:48:03 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 20:48:09 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 20:48:12 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[15-Nov-2017 20:52:41 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
