@@ -56,9 +56,13 @@ Col2:
 
 ### Experience
 
+****Full-Stack Web Developer****
+(link: https://osedea.com/ text: Osedea popup: yes)
+February 2018 to Present
+
 ****Front-end Developer & Team Lead****
 (link: http://peoplelikeus.ca/ text: People Like Us popup: yes)
-March 2016 to Present
+March 2016 to February 2018
 
 **Web Designer & Front-end Developer**
 (link: http://designshopp.com text: Design Shopp popup: yes)
